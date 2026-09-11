@@ -10,7 +10,7 @@ export interface ContactRequest {
 
 @Injectable({ providedIn: 'root' })
 export class ContactService {
-  private readonly api = 'http://localhost:8080/api/contact';
+  private readonly api = 'https://mohan-portfolio-api.onrender.com/api/contact';
 
   constructor(private http: HttpClient) {}
 
